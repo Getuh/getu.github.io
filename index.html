@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GetrHub</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Pangolin&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+
+  <style>
+    .social-icons-overlay .social-icon {
+      margin-left: 50px; /* Muutke seda väärtust vastavalt soovile */
+    }
+  </style>
+  <style>
+    .name {
+      font-size: 80px;
+    } 
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="name">GETTTERRR</h1>
+  </header>
+
+  <main>
+    <div class="content">
+      <p class="description">yo.</p>
+    </div>
+
+    <div class="image-container">
+        <img src="images/pilt.jpg" alt="pilt" width="300" height="300" class="rotate-image" onclick="toggleSocialIcons()">
+        <div id="social-icons-overlay" class="social-icons-overlay">
+          <a href="https://www.instagram.com/getter.exe/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" class="social-icon instagram-icon">
+          </a>
+          <a href="https://www.youtube.com/@Getuhh/videos" target="_blank">
+            <img src="images/youtube.png" alt="YouTube" class="social-icon youtube-icon">
+          </a>
+          <a href="https://steamcommunity.com/id/snowwakene/" target="_blank">
+            <img src="images/steam.png" alt="Steam" class="social-icon steam-icon">
+          </a>
+          <a href="https://www.facebook.com/getter.aust/" target="_blank">
+            <img src="images/facebook.png" alt="Facebook" class="social-icon facebook-icon">
+          </a>
+        </div>
+    </div>
+  </main>
+</body>
+</html>
